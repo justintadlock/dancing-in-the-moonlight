@@ -1,0 +1,69 @@
+/**
+ * Theme Name:  Dancing In The Moonlight
+ * Theme URI:   http://themehybrid.com/themes/dancing-in-the-moonlight
+ * Description: A fun Christmas child theme.
+ * Version:     1.0.0-beta
+ * Author:      Justin Tadlock
+ * Author URI:  http://justintadlock.com
+ * Tags:        one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready
+ * Text Domain: dancing-in-the-moonlight
+ * License:     GNU General Public License v2.0 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template:    stargazer
+ */
+
+.entry h1,
+.entry h2,
+.entry h3,
+.entry h4,
+.entry h5,
+.entry h5,
+#site-title {
+	font-family: 'Bangers', 'Open Sans', Arial, sans-serif; 
+	font-weight: 400;
+	font-style: normal;
+}
+
+#site-description {
+	font-family: 'Open Sans', Arial, sans-serif; 
+}
+
+#menu-primary,
+#menu-primary .search-form > div,
+#footer { background: #0a2845; }
+
+@media only screen and ( min-width: 800px ) {
+
+	.menu li > ul::before { border-bottom-color: #0b4f8f; }
+	.ltr .menu li li > ul::before { border-right-color: #0a2845; }
+	.rtl .menu li li > ul::before { border-left-color: #0a2845; }
+
+	#menu-primary ul ul,
+	#menu-secondary ul ul {
+		border: 1px dotted rgba( 11, 79, 143, 0.5 );
+		border-top: none;
+	}
+
+	#menu-primary ul ul li a,
+	#menu-secondary ul ul li a {
+		background: #0a2845;
+		border-top-color: rgba( 11, 79, 143, 0.5 );
+		border-top-style: dotted;
+	}
+
+	#menu-primary ul ul li a:hover,
+	#menu-secondary ul ul li a:hover { background: #0c1e3a; }
+}
+
+@media only screen and ( max-width: 799px ) {
+
+	#menu-primary li a,
+	#menu-secondary li a {
+		background: #0a2845;
+		border-top-color: rgba( 11, 79, 143, 0.5 );
+		border-top-style: dotted;
+	}
+
+	#menu-primary li a:hover,
+	#menu-secondary li a:hover { background: #0c1e3a; }
+}
