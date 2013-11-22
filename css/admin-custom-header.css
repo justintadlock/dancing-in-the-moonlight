@@ -1,0 +1,11 @@
+@import url( '//fonts.googleapis.com/css?family=Bangers' );
+
+#site-title {
+	font-family: 'Bangers', 'Open Sans', Arial, sans-serif; 
+	font-weight: 400;
+	font-style:  normal;
+}
+
+#site-description {
+	font-family: 'Open Sans', Arial, sans-serif; 
+}
