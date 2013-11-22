@@ -1,5 +1,8 @@
 <?php
 /**
+ * "Christmas is not a time nor a season, but a state of mind. To cherish peace and goodwill, to be 
+ * plenteous in mercy, is to have the real spirit of Christmas." ~ Calvin Coolidge 
+ *
  * @package    DancingInTheMoonlight
  * @version    1.0.0
  * @author     Justin Tadlock <justin@justintadlock.com>
